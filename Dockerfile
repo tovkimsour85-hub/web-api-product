@@ -1,4 +1,5 @@
 # Stage 1: Build the application
+# Fix permissions for gradlew
 FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
 COPY . .
