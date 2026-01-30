@@ -24,7 +24,7 @@ public class MyConfi implements WebMvcConfigurer{
         // Explicitly define the server URL for Swagger UI API calls
     
         Server productionServer = new Server();
-        productionServer.setUrl("https://kimsour_project.uk"); 
+        productionServer.setUrl("https://setec-su3-project.uk"); 
         productionServer.setDescription("Production Server");
 
         // You can add other servers (e.g., a local HTTP one for development)
